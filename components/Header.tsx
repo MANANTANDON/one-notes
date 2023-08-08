@@ -23,7 +23,7 @@ export const Header = () => {
 
   return (
     <header className={`z-[100]`}>
-      <div className="flex items-center space-x-2 md:space-x-2">
+      <div className="flex items-center space-x-4 md:space-x-10">
         <Image
           src={logo}
           alt=""
@@ -31,8 +31,6 @@ export const Header = () => {
           height={100}
           className="cursor-pointer object-contain"
         />
-      </div>
-      <div>
         <ul className=" flex space-x-4">
           <li className="headerLink">Class 11</li>
           <li className="headerLink">Class 12</li>
